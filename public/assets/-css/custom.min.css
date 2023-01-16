@@ -1,0 +1,34 @@
+*{
+    border-radius: 0 !important;
+}
+.table-td-hover {
+  min-height: 70vh;
+  table-layout: fixed;
+}
+.table-td-hover .jtc-th {
+  height: 40px;
+  text-align: center;
+}
+.table-td-hover .jtc-td {
+  min-height: 40vh;
+  border: solid 1px var(--vz-gray-300);
+  position: relative;
+}
+.table-td-hover .jtc-td:hover,
+.table-td-hover .jtc-td.active {
+ background: var(--vz-gray-200);
+}
+.table-td-hover .jtc-td .jtc-label {
+  background: var(--vz-gray-300);
+  display: inline-block;
+  min-width: 30px;
+  padding: 2px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  text-align: center;  
+}
+.table-td-hover .jtc-td.active .jtc-label {
+  background: var(--vz-primary);
+  color: #fff;
+}
