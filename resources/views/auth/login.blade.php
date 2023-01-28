@@ -80,8 +80,18 @@
         <!-- end auth page content -->
     </div>
     <!-- end auth-page-wrapper -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
 
+    <script src="{{ asset('assets/libs/jquery/jquery-3.6.1.min.js') }}?v=0.1"></script>
     <script type="text/javascript">document.getElementById("password-addon")&&document.getElementById("password-addon").addEventListener("click",function(){var e=document.getElementById("password-input");"password"===e.type?e.type="text":e.type="password"});</script>
+                                 
+     <script type="text/javascript">
+          $(document).ready(function(){
 
+ calbacker('mohamed');
+  
+})
+</script>
+    <script>if (window.module) module = window.module;</script>
 </body>
 </html>

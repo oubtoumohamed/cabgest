@@ -23,6 +23,7 @@
     <!-- custom Css-->
     <link href="{{ asset('assets/css/custom.min.css') }}?v=1" rel="stylesheet" type="text/css" />
     @yield('css')
+	<style>body{zoom: 75%;}</style>
 </head>
 <body class="fullscreen-enable">
 
@@ -768,9 +769,9 @@
                             </a>
                             <div class="collapse menu-dropdown" id="siderdv">
                                 <ul class="nav nav-sm flex-column">
-                                    <li class="nav-item">
+                                    <!--li class="nav-item">
                                         <a href="{{ route('rendezvous_create') }}" class="nav-link rendezvous_create">{{ __('rendezvous.create') }}</a>
-                                    </li>
+                                    </li-->
                                     <li class="nav-item">
                                         <a href="{{ route('rendezvous') }}" class="nav-link rendezvous">{{ __('rendezvous.calendar') }}</a>
                                     </li>
